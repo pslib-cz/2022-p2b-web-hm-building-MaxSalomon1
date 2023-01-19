@@ -1,0 +1,45 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url(./fonty/OpenSans-Regular.ttf);
+}
+
+body {
+    font-family: 'OpenSans', 'sans-serif';
+    background-color: white;
+    margin: 0em;
+    padding: 0em;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navbarlogo {
+    padding-top: 1em;
+}
+
+.navbar-hamburger {
+    position: absolute;
+    right: 0;
+    top: 0;
+    padding: 1.5em 1.5em 0 0;
+}
+
+.title {
+    text-align: center;
+    font-weight: 900;
+    font-size: large;
+    margin: 0em;
+}
+
+.secondtitle {
+    text-align: center;
+    font-weight: 100;
+    font-size: medium;
+    margin: 0em;
+}
+
+.header-image {
+    position: relative;
+    max-width: -webkit-fill-available;
+}

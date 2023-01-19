@@ -43,3 +43,20 @@ a {
     position: relative;
     max-width: -webkit-fill-available;
 }
+
+.main {
+    margin: 21px;
+}
+
+.main-image {
+    max-width: -webkit-fill-available;
+}
+
+.header-text {
+    margin: 21px;
+}
+
+header h1 {
+    font-weight: 900;
+    font-size: 22px;
+}

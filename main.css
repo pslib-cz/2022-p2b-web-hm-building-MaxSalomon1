@@ -14,8 +14,13 @@ a {
     text-decoration: none;
 }
 
+.navbar-menu {
+    color: black;
+}
+
 .navbarlogo {
     padding-top: 1em;
+    padding-bottom: 1em;
 }
 
 .navbar-hamburger {
@@ -27,29 +32,44 @@ a {
 
 .title {
     text-align: center;
+    justify-content: center;
     font-weight: 900;
-    font-size: large;
+    font-size: 30px;
     margin: 0em;
+    padding-top: 5em;
+
 }
 
 .secondtitle {
     text-align: center;
     font-weight: 100;
-    font-size: medium;
+    font-size: 20px;
     margin: 0em;
 }
 
-.header-image {
-    position: relative;
-    max-width: -webkit-fill-available;
+.header {
+    color: white;
+    background-position: center;
+    background-size: 200%;
+    width: 100%;
+    min-height: 250px;
+    background-image: url(./obrazky/pageheader-1920w.jpg);
 }
 
 .main {
     margin: 21px;
 }
 
-.main-image {
+.main-image-right {
+    margin-top: 2.5em;
     max-width: -webkit-fill-available;
+    border-radius: 0 0 40px 0;
+}
+
+.main-image-left {
+    margin-top: 2.5em;
+    max-width: -webkit-fill-available;
+    border-radius: 0 0 0 40px;
 }
 
 .header-text {
@@ -59,4 +79,26 @@ a {
 header h1 {
     font-weight: 900;
     font-size: 22px;
+}
+
+.main-btn {
+    padding: .5em 1.5em .5em 1.5em;
+    border: dashed 0.5px;
+    color:#EB6C27;
+}
+
+b.orange-color {
+    color: #EB6C27;
+}
+
+.header-text-bold {
+    font-weight: 700;
+}
+
+.main-text {
+    padding-bottom: 1em;
+}
+
+.main h1 {
+    font-size: 20px;
 }

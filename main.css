@@ -102,3 +102,55 @@ b.orange-color {
 .main h1 {
     font-size: 20px;
 }
+
+.background {
+    color: white;
+    margin-top: 3em;
+    background-position: center;
+    background-size: 200%;
+    width: 100%;
+    min-height: 200px;
+    background-image: url(./obrazky/background-CTAblock-4460w.jpg);
+}
+
+.background-text {
+    font-weight: 900;
+    padding: 1em;
+    padding-bottom: 0em;
+    font-size: 17px;
+    margin-right: 4em;
+}
+
+.background-text-small {
+    display: block;
+    padding-left: 1em;
+    padding-bottom: 2.5em;
+}
+
+.background-button {
+    padding: .5em 1.5em .5em 1.5em;
+    color: white;
+    background-color: #EB6C27;
+    margin-left: 1em;
+}
+
+.section-header {
+    margin-top: 2em;
+    font-size: 22px;
+    font-weight: 900;
+    padding-right: 8em;
+    padding-left: 1em;
+}
+
+.section-header-orange {
+    color:#EB6C27;
+}
+
+.section-text {
+    padding-left: 1em;
+    padding-right: 2em;
+}
+
+.section-text-strong {
+    font-weight: 700;
+}

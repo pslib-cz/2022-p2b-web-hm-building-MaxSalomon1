@@ -264,3 +264,40 @@ li::before {
 .sluzby-section strong {
     font-weight: 900;
 }
+
+.reference-main > h1 {
+    font-weight: 900;
+    padding-top: 2em;
+    margin-left: .5em;
+}
+
+.reference-main > p {
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 2em; 
+}
+
+.reference-main-text-strong {
+    font-weight: 900;
+}
+
+.reference-section {
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+}
+
+.reference-section img {
+    max-width: -webkit-fill-available;
+}
+
+.reference-section h1 {
+    margin: .5em;
+    color: black;
+}
+
+.reference-section p {
+    margin: 0em;
+    color: black;
+    margin-bottom: 3em;
+}

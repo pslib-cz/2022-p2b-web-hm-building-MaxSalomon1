@@ -301,3 +301,7 @@ li::before {
     color: black;
     margin-bottom: 3em;
 }
+
+.reference-section img {
+    max-width: -webkit-fill-available;
+}

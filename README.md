@@ -1,1 +1,1 @@
-Odkaz na [moji stránku](https://pslib-cz.github.io/2022-p2b-web-hm-building-MaxSalomon1/index_mobile.html)
+Odkaz na [moji stránku](https://pslib-cz.github.io/2022-p2b-web-hm-building-MaxSalomon1/index.html)

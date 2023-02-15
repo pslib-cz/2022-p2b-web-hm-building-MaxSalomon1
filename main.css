@@ -3,6 +3,10 @@
     src: url(./fonty/OpenSans-Regular.ttf);
 }
 
+html{
+    font-family: OpenSans, Arial, Helvetica, sans-serif;
+}
+
 body {
     font-family: 'OpenSans', 'sans-serif';
     background-color: white;
@@ -10,8 +14,13 @@ body {
     padding: 0em;
 }
 
+img {
+    display: block;
+}
+
 a {
     text-decoration: none;
+    display: inline-block;
 }
 
 .navbar-menu {
@@ -34,7 +43,7 @@ a {
     text-align: center;
     justify-content: center;
     font-weight: 900;
-    font-size: 30px;
+    font-size: 2em;
     margin: 0em;
     padding-top: 5em;
 
@@ -43,21 +52,20 @@ a {
 .secondtitle {
     text-align: center;
     font-weight: 100;
-    font-size: 20px;
+    font-size: 1em;
     margin: 0em;
 }
 
 .header {
     color: white;
     background-position: center;
-    background-size: 200%;
-    width: 100%;
+    background-size: cover;
     min-height: 250px;
     background-image: url(./obrazky/pageheader-1920w.jpg);
 }
 
 .main {
-    margin: 21px;
+    margin: 1.375em;
 }
 
 .main-image-right {
@@ -73,12 +81,12 @@ a {
 }
 
 .header-text {
-    margin: 21px;
+    margin: 1.375em;
 }
 
-header h1 {
+.header-text-big {
     font-weight: 900;
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 .main-btn {
@@ -99,16 +107,15 @@ b.orange-color {
     padding-bottom: 1em;
 }
 
-.main h1 {
-    font-size: 20px;
+.main h2 {
+    font-size: 1.25em;
 }
 
 .background {
     color: white;
     margin-top: 3em;
     background-position: center;
-    background-size: 200%;
-    width: 100%;
+    background-size: cover;
     min-height: 200px;
     background-image: url(./obrazky/background-CTAblock-4460w.jpg);
 }
@@ -117,14 +124,15 @@ b.orange-color {
     font-weight: 900;
     padding: 1em;
     padding-bottom: 0em;
-    font-size: 17px;
+    font-size: 1em;
     margin-right: 4em;
 }
 
-.background-text-small {
+.background-text-second {
     display: block;
     padding-left: 1em;
     padding-bottom: 2.5em;
+    font-weight: 900;
 }
 
 .background-button {
@@ -136,7 +144,7 @@ b.orange-color {
 
 .section-header {
     margin-top: 2em;
-    font-size: 22px;
+    font-size: 1.375em;
     font-weight: 900;
     padding-right: 8em;
     padding-left: 1em;
@@ -180,6 +188,7 @@ b.orange-color {
 }
 
 .reference > a {
+    display: inline-block;
     padding: .75em 2em .75em 2em;
     color: white;
     background-color: #EB6C27;
@@ -198,7 +207,7 @@ b.orange-color {
     text-align: center;
     color: white;
     font-weight: 800;
-    font-size: 22px;
+    font-size: 1.375em;
 }
 
 .footer > p {
@@ -262,7 +271,7 @@ b.orange-color {
 .sluzby-section > h2 {
     font-weight: 900;
     margin-left: 1em;
-    font-size: 14px;
+    font-size: .875em;
 }
 
 .sluzby-section > p {
@@ -304,6 +313,10 @@ b.orange-color {
     color: black;
 }
 
+.reference-section a {
+    display: block;
+}
+
 .reference-section p {
     margin: 0em;
     color: black;
@@ -337,3 +350,9 @@ b.orange-color {
 .menu-main-domu {
     font-weight: 900;
 }
+
+.kontakty-ikony {
+    padding: 1.25em;
+    padding-top: .25em;
+    color: #EB6C27;
+    font-weight: 

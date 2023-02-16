@@ -168,7 +168,7 @@ b.orange-color {
     text-align: center;
 }
 
-.reference > img {
+.reference img {
     max-width: -webkit-fill-available;
     padding-left: 1.5em;
     padding-right: 1.5em;
@@ -356,3 +356,105 @@ b.orange-color {
     padding-top: .25em;
     color: #EB6C27;
     font-weight: 
+}
+
+.kontakty-mapa {
+    background-image: url(./obrazky/mapa.jpg);
+    background-position: center;
+    background-size: cover;
+    min-height: 250px;
+    margin-top: 1em;
+}
+
+.kontakty-text {
+    margin-left: 1em;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 1em;
+    border: 1px solid #EB6C27;
+    box-sizing: border-box;
+    margin-top: .5em;
+    margin-bottom: 1.25em;
+    resize: vertical;
+    text-align: left;
+}
+
+textarea {
+    padding: 8em;
+}
+
+input[type=submit] {
+    background-color: #EB6C27;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.kontakty-formular {
+    padding: 1em;
+}
+
+.kontakty-formular-tlacitko {
+    text-align: center;
+}
+
+@media only screen and (min-width: 600px) {
+    .container {
+        background-image: url(./obrazky/pageheader-3100w.jpg);
+        color: white;
+        background-position: center;
+        background-size: cover;
+        min-height: 250px;
+    }
+    .header {
+        background-image: none;
+    }
+
+    .header-text {
+        text-align: center;
+        padding-left: 15em;
+        padding-right: 15em;
+    }
+
+    .header-text-big {
+        font-size: 2.5em;
+        padding-top: 1em;
+    }
+
+    .sluzby {
+        display: flex;
+    }
+
+    .sluzby-gallery-image {
+        max-width: 50%;
+        padding-left: 5em;
+        margin-right: 1.5em;
+    }
+
+    .sluzby-gallery-text {
+        padding-left: 1.5em;
+        padding-right: 5em;
+    }
+
+    .sluzby-main-nadpis {
+        text-align:center;
+    }
+
+    
+    .sluzby-main-text {
+        padding-left: 5em;
+        padding-right: 15em;
+    }
+
+    .sluzby-section {
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+
+    .sluzby-section-text {
+        padding-left: 5em;
+    }
+}

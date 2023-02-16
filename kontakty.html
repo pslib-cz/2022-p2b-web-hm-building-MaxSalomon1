@@ -30,29 +30,42 @@
         </div>
     </main>
 
-    <section class="sluzby-section">
-        <h2>Kryt komunikace</h2>
-        <ul>
-            <li>průmyslových staveb</li>
-            <li>obytných staveb</li>
-            <li>staveb občanské vybavenosti</li>
-            <li>komunikací vozidlových, ale i pěších</li>
-        </ul>
-        <p>
-            Zakázky můžeme řešit tzv. <strong>na klíč</strong>, kde jsme schopni zajistit dodávky a montáž elektro-instalace NN a VN, zdravotně – technické instalace, ústředního vytápění, vzduchotechniky, MaR, případně jsme schopni, po dohodě s investorem, dodat pouze některou ucelenou část celkové zakázky.
-        </p>
-        <p>
-            Naše firma taktéž zajišťuje <strong>projekční služby a služby týkající se statického posouzení staveb</strong> v oboru pozemního stavitelství a dále jsme schopni zajistit <strong>investorsko–inženýrské služby</strong>.
-        </p>
-        <p>   
-            <strong>Záruční doba</strong> na námi provedená díla se pohybuje od 24 do 60 měsíců.
-        </p> 
+    <div class="kontakty-mapa"></div>
+
+    <section class="kontakty-text">
+        <h2>Nezávazná poptávka služeb</h2>
+        <p>Plácneme si pro Váš projekt? Nezávazně nás kontaktujte a domluvme vše potřebné</p>
     </section>
 
-    <footer class="footer">
-        <h1>Plácneme si pro Váš projekt?</h1>
-        <p>Nezávazně nás kontaktujte a domluvme vše potřebné.</p>
-        <a href="./kontakty.html">Nezávazně poptat</a>
-    </footer>
+
+    <div class="kontakty-formular">
+        <form action="action_page.php">
+
+            <label for="jmenoaprijmeni">Jméno a příjmení</label>
+            <input type="text" id="jmenoaprijmeni" name="jmenoaprijmeni">
+        
+            <label for="email">E-mail</label>
+            <input type="text" id="email" name="email">
+        
+            <label for="telefon">Telefon</label>
+            <input type="text" id="telefon" name="telefon">
+
+            <label for="sluzba">Poptávaná služba</label>
+            <select id="sluzba" name="sluzba">
+              <option value="novostavba">Novostavba</option>
+              <option value="prumyslovastavba">Průmyslová stavba</option>
+              <option value="rekostrukce">Rekonstrukce</option>
+              <option value="komunikace">Komunikace a zpevněné plochy</option>
+            </select>
+        
+            <label for="poznamka">Poznámka</label>
+            <textarea id="poznamka" name="poznamka style="height:200px"></textarea>
+            
+            <div class="kontakty-formular-tlacitko">
+                <input type="submit" value="Odeslat nezávaznou poptávku">
+            </div>
+        
+          </form>
+    </div>
 </body>
 </html>

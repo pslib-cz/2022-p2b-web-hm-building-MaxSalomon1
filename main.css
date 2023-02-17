@@ -187,7 +187,7 @@ b.orange-color {
     margin-bottom: 4em;
 }
 
-.reference > a {
+.reference-button {
     display: inline-block;
     padding: .75em 2em .75em 2em;
     color: white;
@@ -355,7 +355,6 @@ b.orange-color {
     padding: 1.25em;
     padding-top: .25em;
     color: #EB6C27;
-    font-weight: 
 }
 
 .kontakty-mapa {
@@ -456,5 +455,72 @@ input[type=submit] {
 
     .sluzby-section-text {
         padding-left: 5em;
+    }
+
+    .kontakty-main-text {
+        text-align: center;
+    }
+
+    .kontakty-formular {
+        padding-left: 5em;
+        padding-right: 40em;
+    }
+
+    .kontakty-text {
+        padding-left: 5em;
+        margin: 0em;
+    }
+
+    .kontakty-ikony {
+        padding-left: 5em;
+    }
+
+    .reference-index-text {
+        text-align: center;
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+
+    .background {
+        padding-left: 5em;
+    }
+
+    .background-text {
+        padding-top: 3em;
+    }
+
+    .background-button {
+        margin-bottom: 3em;
+    }
+
+    .reference {
+        display: flex;
+    }
+
+    .reference-gallery-text {
+        display: none;
+    }
+
+    .reference-gallery-image {
+        float: left;
+        width: 33.33%;
+    }
+
+    .reference-button {
+        display: none;
+    }
+
+    .section-header {
+        padding: 0em;
+    }
+
+    .reference-main {
+        text-align: center;
+        padding-left: 10em;
+        padding-right: 10em;
+    }
+
+    #footer-reference {
+        margin-top: 20em;
     }
 }
